@@ -1,0 +1,14 @@
+region = "us-east-1"
+cluster_name = "teleport"
+key_name = "teleport"
+ami_name = "gravitational-teleport-ami-ent-13.0.4"
+route53_zone = "yourmain.com"
+route53_domain = "cluster.yourdomain"
+add_wildcard_route53_record = true
+enable_mongodb_listener = true
+enable_mysql_listener = true
+enable_postgres_listener = true
+s3_bucket_name = "yourbucketname"
+email = "yourmail@gmail.com"
+use_letsencrypt = true
+use_acm = false
