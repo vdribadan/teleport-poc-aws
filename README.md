@@ -52,8 +52,6 @@ vars.tf        | Inbound variables for Teleport configuration.
 
 ### Steps
 
-Update the included Makefile to define your configuration.
-
 1. Run `terraform apply`.
 2. SSH to your new instance. `ssh ec2-user@<cluster_domain>`.
 3. Create a user (this will create a Teleport User and permit login as the local ec2-user).
